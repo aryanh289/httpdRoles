@@ -30,7 +30,7 @@ galaxy_info:
   platforms:
   - name: RedHat
     versions:
-      - all
+    - all
   #   - 25
   # - name: SomePlatform
   #   versions:
