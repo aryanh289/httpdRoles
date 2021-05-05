@@ -1,0 +1,15 @@
+---
+# tasks file for httpd
+
+- name: Install http
+  yum:
+    name: httpd
+    state: latest
+  notify: reshttpd
+  
+- name: "Copy the files"
+  copy:
+    dest: "{{ dest }}/index.html"
+    src: index.html
+    mode: 0766
+  notify: reshttpd 

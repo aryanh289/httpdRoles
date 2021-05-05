@@ -1,0 +1,8 @@
+---
+# handlers file for httpd
+
+- name: reshttpd
+  service:
+    name: httpd
+    state: restarted
+      
