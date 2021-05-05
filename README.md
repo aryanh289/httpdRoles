@@ -1,22 +1,26 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+Role name is 'http'. This is a very basic test level ansible-role created specifically for testing purpose and learning how actually the ansible roles work.
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+Just few prerequisites:
+1. You must have python3 installed
+2. You should have ansible installed and that's it.
+3. Use this role with any other ansible playbook easily.
 
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+Just one:
+`dest` contains the destination of the directory path where i have to copy my index.html. But you can keep more, like filename or service name.
 
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+None.
 
 Example Playbook
 ----------------
@@ -25,7 +29,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: username.rolename, x: 42 }
+         - httpd (my_role_name_is_httpd, so you just have to put the rolename along with the path, until or unless your playbook and my role are in the same dir)
 
 License
 -------
@@ -35,4 +39,4 @@ BSD
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+I am Harsh Aryan. I love automation. ;-)
