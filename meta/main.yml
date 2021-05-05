@@ -29,9 +29,9 @@ galaxy_info:
   #
   platforms:
   - name: RedHat
-    versions:
-    - 8
-    - 7
+  #  versions:
+  #  - 8
+  #  - 7
   #   - 25
   # - name: SomePlatform
   #   versions:
